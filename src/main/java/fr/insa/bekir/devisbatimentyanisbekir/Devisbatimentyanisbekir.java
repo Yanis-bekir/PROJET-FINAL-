@@ -11,6 +11,6 @@ package fr.insa.bekir.devisbatimentyanisbekir;
 public class Devisbatimentyanisbekir {
 
     public static void main(String[] args) {
-        System.out.println("je te deteste maxime");
+        System.out.println("Helo world!");
     }
 }
