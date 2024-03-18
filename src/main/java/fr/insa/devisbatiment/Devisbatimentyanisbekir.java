@@ -8,7 +8,7 @@ package fr.insa.devisbatiment;
  *
  * @author ybekir01
  */
-public class Devisbatimentyanisbekir {
+public class Devisbatiment {
 
     public static void main(String[] args) {
         System.out.println("Helo world!");
