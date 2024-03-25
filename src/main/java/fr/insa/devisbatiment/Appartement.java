@@ -10,7 +10,8 @@ package fr.insa.devisbatiment;
  */
 public class Appartement extends {
     int idAppartement ;
-    double hauteurSousPlafond ;
-    Arraylist ListeAppart ;
+    int idNiveauAppartement ;
+    Arraylist listePieces ;
+    
             
 }
