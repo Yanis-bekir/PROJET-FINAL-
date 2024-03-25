@@ -3,12 +3,13 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
  */
 package fr.insa.devisbatiment;
+import java.util.*;
 
 /**
  *
  * @author ybekir01
  */
-public class Mur {
+public class Mur { 
     
     public int idmur;
     public Coin coindebut;
@@ -23,4 +24,10 @@ public class Mur {
     this.coindebut = coindebut;
     this.coinfin = coinfin;
     }
+    
+    public void afficher(){
+        
+    }
+    
+    public void 
 }
