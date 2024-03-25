@@ -8,6 +8,9 @@ package fr.insa.devisbatiment;
  *
  * @author ybekir01
  */
-public class Appartement {
-    
+public class Appartement extends {
+    int idAppartement ;
+    double hauteurSousPlafond ;
+    Arraylist ListeAppart ;
+            
 }
