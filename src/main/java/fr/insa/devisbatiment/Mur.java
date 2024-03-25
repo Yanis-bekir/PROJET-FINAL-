@@ -10,4 +10,17 @@ package fr.insa.devisbatiment;
  */
 public class Mur {
     
+    public int idmur;
+    public Coin coindebut;
+    public Coin coinfin;
+    public int nbrPortes;
+    public int nbrFenetre;
+    public List listerevetement;
+    
+    
+    Mur(int id, Coin coindebut, Coin coinfin) {
+    this.idmur = id;
+    this.coindebut = coindebut;
+    this.coinfin = coinfin;
+    }
 }
