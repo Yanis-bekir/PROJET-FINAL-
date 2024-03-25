@@ -1,10 +1,12 @@
 package fr.insa.devisbatiment;
 
+import java.util.ArrayList;
+
 public class Sol {
     //declaration des attributs de la classe Coin
     int idSol;
-    List listeCoins;
-    List ListeRevetements;
+    ArrayList listeCoins;
+    ArrayList ListeRevetements;
 
     @Override
     public String afficher() {
