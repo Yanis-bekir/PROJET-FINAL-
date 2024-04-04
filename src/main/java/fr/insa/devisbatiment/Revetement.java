@@ -17,4 +17,13 @@ public class Revetement {
    double prixUnitaire;
    
    
+    Revetement(int id, String designation, boolean Mur, boolean Sol, boolean Plafond, double prixUnitaire) {
+    this.idRevetement = id;
+    this.designation = designation;
+    this.pourMur = Mur;
+    this.pourSol = Sol;
+    this.pourPlafond = Plafond;
+    this.prixUnitaire = prixUnitaire;
+    }
+    
 }
