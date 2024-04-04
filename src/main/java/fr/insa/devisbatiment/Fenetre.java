@@ -8,6 +8,6 @@ package fr.insa.devisbatiment;
  *
  * @author ybekir01
  */
-public class Fenetre {
+public class Fenetre extends Ouverture{
     
 }
