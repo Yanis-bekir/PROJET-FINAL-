@@ -13,6 +13,11 @@ public class Plafond {
     int idPlafond;
     Arraylist listeCoins;
     Arraylist listeRevetements;
+    
+    Plafond(int id, Arraylist listeCoins){
+        this.idPlafond= id;
+        this.listeCoins= listeCoins;
+    }
 
     @Override
     public String toString() {
