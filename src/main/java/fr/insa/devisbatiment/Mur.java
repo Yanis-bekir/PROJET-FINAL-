@@ -3,7 +3,7 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
  */
 package fr.insa.devisbatiment;
-import java.util.*;
+import java.util.ArrayList;
 
 /**
  *
@@ -31,5 +31,12 @@ public class Mur {
         
     }
     
-    public void 
+    public void surface (double h, double l){
+        
+    }
+    
+    public void montantRevetement (double s, double p){
+        double montant;
+        montant=s*p;
+    }
 }
