@@ -9,8 +9,8 @@ import java.util.ArrayList;
 public class Sol {
     //declaration des attributs de la classe Coin
     int idSol;
-    ArrayList listeCoins;
-    ArrayList ListeRevetements;
+    ArrayList listeCoins = new ArrayList<Coin>();
+    ArrayList ListeRevetements =new ArrayList<Revetement>();
     
     @Override
     public String afficher() {
