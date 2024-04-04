@@ -8,6 +8,6 @@ package fr.insa.devisbatiment;
  *
  * @author ybekir01
  */
-public class Circulation {
+public class Circulation extends Niveau {
     
 }

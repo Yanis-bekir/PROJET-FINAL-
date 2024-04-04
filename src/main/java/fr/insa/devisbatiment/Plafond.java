@@ -11,8 +11,13 @@ package fr.insa.bekir.projet_test_g12;
  */
 public class Plafond {
     int idPlafond;
-    List listeCoins;
-    List listeRevetements;
+    Arraylist listeCoins;
+    Arraylist listeRevetements;
+    
+    Plafond(int id, Arraylist listeCoins){
+        this.idPlafond= id;
+        this.listeCoins= listeCoins;
+    }
 
     @Override
     public String toString() {

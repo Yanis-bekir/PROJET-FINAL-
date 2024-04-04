@@ -9,5 +9,12 @@ package fr.insa.devisbatiment;
  * @author ybekir01
  */
 public class Revetement {
-    
+   int idRevetement;
+   String designation;
+   boolean pourMur;
+   boolean pourSol;
+   boolean pourPlafond;
+   double prixUnitaire;
+   
+   
 }

@@ -9,5 +9,9 @@ package fr.insa.devisbatiment;
  * @author ybekir01
  */
 public class Pièce {
+    int idPiece;
+    int sol;
+    int plafond;
+    Arraylist listMurs;
     
 }

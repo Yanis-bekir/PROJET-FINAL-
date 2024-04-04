@@ -3,24 +3,33 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
  */
 package fr.insa.devisbatiment;
+import java.util.*;
 
 /**
  *
  * @author ybekir01
  */
-public class Mur {
+public class Mur { 
     
     public int idmur;
     public Coin coindebut;
     public Coin coinfin;
     public int nbrPortes;
     public int nbrFenetre;
-    public List listerevetement;
+    public Arraylist listerevetement;
     
     
-    Mur(int id, Coin coindebut, Coin coinfin) {
+    Mur(int id, Coin coindebut, Coin coinfin, int nbrPortes, int nbrFenetre, Arraylist idRevetement) {
     this.idmur = id;
     this.coindebut = coindebut;
     this.coinfin = coinfin;
+    this.nbrFenetre = nbrFenetre;
+    this.nbrPortes = nbrPortes;
     }
+    
+    public void afficher(){
+        
+    }
+    
+    public void 
 }
