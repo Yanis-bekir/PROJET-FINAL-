@@ -1,5 +1,7 @@
 package fr.insa.bekir.projet_test_g12;
 
+import java.util.ArrayList;
+
 /*
  * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
  * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
@@ -11,10 +13,10 @@ package fr.insa.bekir.projet_test_g12;
  */
 public class Plafond {
     int idPlafond;
-    Arraylist listeCoins;
-    Arraylist listeRevetements;
+    ArrayList listeCoins;
+    ArrayList listeRevetements;
     
-    Plafond(int id, Arraylist listeCoins, Arraylist idRevetement){
+    Plafond(int id, ArrayList listeCoins, ArrayList idRevetement){
         this.idPlafond= id;
         this.listeCoins= listeCoins;
         this.listeRevetements = idRevetement;
