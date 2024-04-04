@@ -14,9 +14,10 @@ public class Plafond {
     Arraylist listeCoins;
     Arraylist listeRevetements;
     
-    Plafond(int id, Arraylist listeCoins){
+    Plafond(int id, Arraylist listeCoins, Arraylist idRevetement){
         this.idPlafond= id;
         this.listeCoins= listeCoins;
+        this.listeRevetements = idRevetement;
     }
 
     @Override
