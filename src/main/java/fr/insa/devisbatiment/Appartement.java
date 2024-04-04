@@ -13,7 +13,7 @@ import java.util.ArrayList;
 public class Appartement extends Niveau {
     int idAppartement ;
     int idNiveauAppartement ;
-    ArrayList listePieces ;
+    ArrayList listePieces =new ArrayList<Pièce>();
     
     public Appartement(int id, int idNiveau, ArrayList nbrpieces){
             this.idAppartement = id ; 
