@@ -15,6 +15,11 @@ public class Batiment {
     String idBatiment;
     ArrayList listeNiveaux;
 
+    Batiment(String id, ArrayList idNiveau) {
+        this.idBatiment = id ;
+        this.listeNiveaux = idNiveau ;
+    }
+    
     void afficher() {
         System.out.println("Identifiant : " + this.idBatiment+ " List : " + this.listeNiveaux);
     }
