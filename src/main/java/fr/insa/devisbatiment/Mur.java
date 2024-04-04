@@ -16,7 +16,7 @@ public class Mur {
     public Coin coinfin;
     public int nbrPortes;
     public int nbrFenetre;
-    public ArrayList listerevetement;
+    ArrayList ListeRevetements =new ArrayList<Revetement>();
     
     
     Mur(int id, Coin coindebut, Coin coinfin, int nbrPortes, int nbrFenetre, ArrayList idRevetement) {
@@ -25,18 +25,26 @@ public class Mur {
     this.coinfin = coinfin;
     this.nbrFenetre = nbrFenetre;
     this.nbrPortes = nbrPortes;
+    this.ListeRevetements = idRevetement;
     }
     
     public void afficher(){
         
+    }
+
+  
+    @Override
+    public String toString() {
+        return "Mur{" + "idmur=" + idmur + ", coindebut=" + coindebut + ", coinfin=" + coinfin + ", nbrPortes=" + nbrPortes + ", nbrFenetre=" + nbrFenetre + ", ListeRevetements=" + ListeRevetements + '}';
     }
     
     public void surface (double h, double l){
         
     }
     
-    public void montantRevetement (double s, double p){
+    public double montantRevetement (double s, double p){
         double montant;
         montant=s*p;
+        return montant; 
     }
 }
