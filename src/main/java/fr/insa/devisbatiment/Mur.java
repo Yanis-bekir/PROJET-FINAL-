@@ -29,8 +29,7 @@ public class Mur {
     }
     
     public void afficher(){
-        
-        
+        System.out.println("identifiant du mur : " + this.idmur+" Coin debut : "+ this.coindebut +" Coin fin : "+ this.coinfin + " Nombre de fenêtres : " + this.nbrFenetre + " Nombre de portes" + this.nbrPortes + " id revetement : " + this.ListeRevetements);
     }
 
   
