@@ -16,10 +16,10 @@ public class Mur {
     public Coin coinfin;
     public int nbrPortes;
     public int nbrFenetre;
-    public Arraylist listerevetement;
+    public ArrayList listerevetement;
     
     
-    Mur(int id, Coin coindebut, Coin coinfin, int nbrPortes, int nbrFenetre, Arraylist idRevetement) {
+    Mur(int id, Coin coindebut, Coin coinfin, int nbrPortes, int nbrFenetre, ArrayList idRevetement) {
     this.idmur = id;
     this.coindebut = coindebut;
     this.coinfin = coinfin;
