@@ -12,10 +12,10 @@ public class Sol {
     ArrayList ListeCoins = new ArrayList<Coin>();
     ArrayList ListeRevetements =new ArrayList<Revetement>();
 
-    Sol(int id, ArrayList Coins, ArrayList Revetements){
+    Sol(int id, ArrayList Coins, ArrayList idRevetements){
     this.idSol=id;
     this.ListeCoins=Coins;
-    this.ListeRevetements=Revetements;
+    this.ListeRevetements=idRevetements;
     }
     public String afficher() {
         return "L'identifiant du sol est "+ idSol + ", la liste des coins est " + listeCoins + "et la liste des revetements est " + ListeRevetements  ;
