@@ -38,8 +38,9 @@ public class Mur {
         return "Mur{" + "idmur=" + idmur + ", coindebut=" + coindebut + ", coinfin=" + coinfin + ", nbrPortes=" + nbrPortes + ", nbrFenetre=" + nbrFenetre + ", ListeRevetements=" + ListeRevetements + '}';
     }
     
-    public void surface (double h, double l){
-        
+    public double surface (double h, double l){
+       double surface = h*l;
+       return surface;
     }
     
     public double montantRevetement (double s, double p){
