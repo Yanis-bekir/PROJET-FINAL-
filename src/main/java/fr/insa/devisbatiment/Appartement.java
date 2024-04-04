@@ -4,6 +4,8 @@
  */
 package fr.insa.devisbatiment;
 
+import java.util.ArrayList;
+
 /**
  *
  * @author ybekir01
@@ -11,9 +13,9 @@ package fr.insa.devisbatiment;
 public class Appartement extends Niveau {
     int idAppartement ;
     int idNiveauAppartement ;
-    Arraylist listePieces ;
+    ArrayList listePieces ;
     
-    Appartement(int id, int idNiveau, Arraylist nbrpieces){
+    Appartement(int id, int idNiveau, ArrayList nbrpieces){
             this.idAppartement = id ; 
             this.idNiveauAppartement = idNiveau ;
             this.listePieces = nbrpieces ;
