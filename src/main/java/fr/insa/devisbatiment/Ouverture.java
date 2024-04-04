@@ -9,5 +9,5 @@ package fr.insa.devisbatiment;
  * @author ybekir01
  */
 public class Ouverture {
-    
+    int idOuverture
 }
