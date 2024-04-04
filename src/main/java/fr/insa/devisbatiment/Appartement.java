@@ -13,5 +13,9 @@ public class Appartement extends Niveau {
     int idNiveauAppartement ;
     Arraylist listePieces ;
     
-            
+    Appartement(int id, int idNiveau, Arraylist nbrpieces){
+            this.idAppartement = id ; 
+            this.idNiveauAppartement = idNiveau ;
+            this.listePieces = nbrpieces ;
+    }
 }
