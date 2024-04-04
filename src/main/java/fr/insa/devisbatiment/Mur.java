@@ -16,7 +16,7 @@ public class Mur {
     public Coin coinfin;
     public int nbrPortes;
     public int nbrFenetre;
-    public List listerevetement;
+    public Arraylist listerevetement;
     
     
     Mur(int id, Coin coindebut, Coin coinfin) {
