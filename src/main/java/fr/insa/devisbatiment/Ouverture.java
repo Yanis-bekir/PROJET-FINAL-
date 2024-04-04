@@ -9,5 +9,13 @@ package fr.insa.devisbatiment;
  * @author ybekir01
  */
 public class Ouverture {
-    int idOuverture
+    int idOuverture ;
+    double dimX ;
+    double dimY ;
+   
+Ouverture(int id, double x, double y){
+    this.idOuverture = id ;
+    this.dimX = x ;
+    this.dimY = y ;
+}
 }
