@@ -30,5 +30,6 @@ public class Coin {
         return "Coin{" + "idCoin=" + idCoin + ", cx=" + cx + ", cy=" + cy + '}';
     }
 
+    
 }
 
