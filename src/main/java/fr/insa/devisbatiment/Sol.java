@@ -9,10 +9,14 @@ import java.util.ArrayList;
 public class Sol {
     //declaration des attributs de la classe Coin
     int idSol;
-    ArrayList listeCoins = new ArrayList<Coin>();
+    ArrayList ListeCoins = new ArrayList<Coin>();
     ArrayList ListeRevetements =new ArrayList<Revetement>();
-    
-    @Override
+
+    Sol(int id, ArrayList Coins, ArrayList Revetements){
+    this.idSol=id;
+    this.ListeCoins=Coins;
+    this.ListeRevetements=Revetements;
+    }
     public String afficher() {
         return "L'identifiant du sol est "+ idSol + ", la liste des coins est " + listeCoins + "et la liste des revetements est " + ListeRevetements  ;
     }
@@ -26,4 +30,5 @@ public class Sol {
        
     } 
     public Double montantRevetement() {
+}
 }
