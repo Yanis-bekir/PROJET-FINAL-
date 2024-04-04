@@ -4,6 +4,8 @@
  */
 package fr.insa.devisbatiment;
 
+import java.util.ArrayList;
+
 /**
  *
  * @author ybekir01
@@ -12,6 +14,8 @@ public class Pièce {
     int idPiece;
     int sol;
     int plafond;
-    Arraylist listMurs;
+    ArrayList listMurs;
     
+    
+   Pièce(int id, id )
 }
