@@ -26,4 +26,9 @@ public class Revetement {
     this.prixUnitaire = prixUnitaire;
     }
     
+    public double prix (int id){
+        double prix;
+        prix= id; // a changer 
+        return prix;
+    }
 }
