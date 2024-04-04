@@ -7,7 +7,7 @@ public class Niveau extends Batiment {
    double hauteurSousPlafond ;
    ArrayList ListeAppart ;
 
-    Niveau(int id, double idhsp, ArrayList listappart) {
+   Niveau(int id, double idhsp, ArrayList listappart){
         this.idNiveau = id ;
         this.hauteurSousPlafond = idhsp ;
         this.ListeAppart = listappart ;
