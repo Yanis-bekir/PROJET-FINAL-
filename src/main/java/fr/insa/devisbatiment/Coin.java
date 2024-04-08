@@ -30,6 +30,14 @@ public class Coin {
         return "Coin{" + "idCoin=" + idCoin + ", cx=" + cx + ", cy=" + cy + '}';
     }
 
+    public double getCx() {
+        return cx;
+    }
+
+    public double getCy() {
+        return cy;
+    }
+
     
 }
 
