@@ -18,16 +18,18 @@ public class Sol {
     this.ListeRevetements=idRevetements;
     }
     public String afficher() {
-        return "L'identifiant du sol est "+ idSol + ", la liste des coins est " + listeCoins + "et la liste des revetements est " + ListeRevetements  ;
+        return "L'identifiant du sol est "+ idSol + ", la liste des coins est " + ListeCoins + "et la liste des revetements est " + ListeRevetements  ;
     }
 
     @Override
     public String toString() {
-        return "Sol{" + "idSol=" + idSol + ", listeCoins=" + listeCoins + ", ListeRevetements=" + ListeRevetements + '}';
+        return "Sol{" + "idSol=" + idSol + ", listeCoins=" + ListeCoins + ", ListeRevetements=" + ListeRevetements + '}';
     }
    
     public Double surface() {
-       
+       for(int i=0;i< ListeCoins.size();i++){
+           
+       }
     } 
     public Double montantRevetement() {
 }
