@@ -26,7 +26,11 @@ public class Batiment {
     
     void sauvegarder{
 }
+    void lireBatiment{
 }
-    
+    void devisbatiment{
+}
+    void dessiner{
+}
     
 }
