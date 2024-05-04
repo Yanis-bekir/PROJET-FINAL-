@@ -27,7 +27,16 @@ public class Sol {
     }
    
     public Double surface() {
-       for(int i=0;i< ListeCoins.size();i++){
+        double surface = 0;
+
+        for (int i = 0; i ListeCoins.length - 1; i++) {
+            surface += (cx[i] * cy[i + 1]) - (cx[i + 1] * cy[i]);
+        }
+
+        surface += (cx[ListeCoins.length - 1] * cy[0]) - (cx[0] * cy[xPoints.length - 1]);
+
+        return Math.abs(surface) / 2;
+    }
            
        }
     } 
