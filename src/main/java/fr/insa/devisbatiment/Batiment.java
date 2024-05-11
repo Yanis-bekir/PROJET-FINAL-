@@ -28,7 +28,8 @@ public class Batiment {
         System.out.println("Identifiant : " + this.idBatiment+ " List : " + this.listeNiveaux);
     }
     
-    void sauvegarder{
+    void sauvegarder (String[] args) throws Exception{
+    FileWriter writer = new FileWriter(file);
     writer.write("Batiment ; " + idBatiment + " ; " + "id(" + listeNiveaux);
 }
     void lireBatiment{
