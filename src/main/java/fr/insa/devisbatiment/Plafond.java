@@ -26,7 +26,8 @@ public class Plafond {
     public String toString() {
         return "Plafond{" + "idPlafond=" + idPlafond + ", listeCoins=" + listeCoins + ", listeRevetements=" + listeRevetements + '}';
     }
-    
+    MERDE LA
+            
     
         
 }
