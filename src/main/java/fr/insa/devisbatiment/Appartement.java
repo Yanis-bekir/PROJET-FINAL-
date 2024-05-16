@@ -20,4 +20,5 @@ public class Appartement extends Niveau {
             this.idNiveauAppartement = idNiveau ;
             this.listePieces = nbrpieces ;
     }
+    
 }
