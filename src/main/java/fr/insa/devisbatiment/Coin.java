@@ -37,6 +37,17 @@ public class Coin {
     public double getCy() {
         return cy;
     }
+    public void setIdCoin(int idCoin) {
+        this.idCoin = idCoin;
+    }
+
+    public void setcx(double cx) {
+        this.cx = cx;
+    }
+
+    public void setcy(double cy) {
+        this.cy = cy;
+    }
 
     
 }
