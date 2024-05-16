@@ -29,11 +29,11 @@ public class Sol {
     public Double surface() {
         double surface = 0;
 
-        for (int i = 0; i ListeCoins.length - 1; i++) {
-            surface += (cx[i] * cy[i + 1]) - (cx[i + 1] * cy[i]);
+        for (int i = 0; i<=ListeCoins.size() - 1; i++) {
+            surface += (ListeCoins.get(i).getCx() * ListeCoins.get(i + 1).getCy()) - (ListeCoins.get(i + 1).getCx() * ListeCoins.get(i).getCy());
         }
 
-        surface += (cx[ListeCoins.size() - 1] * cy[0]) - (cx[0] * cy[xPoints.length - 1]);
+        surface += (cx[ListeCoins.size() - 1].getCx() * get.cy[0]) - (cx[0] * cy[xPoints.length - 1]);
 
         return Math.abs(surface) / 2;
     }
