@@ -39,8 +39,8 @@ public class Mur {
     }
     
     public double surface (double h, double l){
-       double surface = h*l;
-       return surface;
+       double s = 
+       return s;
     }
     
     public double montantRevetement (double s, double p){
