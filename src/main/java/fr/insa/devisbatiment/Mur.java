@@ -4,7 +4,7 @@
  */
 package fr.insa.devisbatiment;
 import java.util.ArrayList;
-
+import 
 /**
  *
  * @author ybekir01
@@ -38,14 +38,13 @@ public class Mur {
         return "Mur{" + "idmur=" + idmur + ", coindebut=" + coindebut + ", coinfin=" + coinfin + ", nbrPortes=" + nbrPortes + ", nbrFenetre=" + nbrFenetre + ", ListeRevetements=" + ListeRevetements + '}';
     }
     
-    public double surface (double h, double l){
-       double s = 
+    public double surface (){
+       double s=Math.sqrt(Math.pow(coinfin.getCx()-coindebut.getCx(),2)+Math.pow(coinfin.getCy()-coindebut.getCy(),2));
        return s;
     }
     
-    public double montantRevetement (double s, double p){
-        double montant;
-        montant=s*p;
+    public double montantRevetement (Mur mur){
+        double montant=
         return montant; 
     }
 }
