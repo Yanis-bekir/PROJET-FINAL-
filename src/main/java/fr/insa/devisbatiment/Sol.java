@@ -39,7 +39,7 @@ public class Sol {
     }
            
        }
-    public class CalculSurfaceForme {
+/*public class CalculSurfaceForme {
 
     public static void main(String[] args) {
         // Liste des points de la forme
@@ -99,7 +99,7 @@ public class CalculSurfaceForme {
         double hauteur = Math.abs(pointC.getY() - pointA.getY());
         return (base * hauteur) / 2;
     }
- 
+ */
     public Double montantRevetement() {
 }
 }
