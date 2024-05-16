@@ -33,7 +33,7 @@ public class Sol {
             surface += (cx[i] * cy[i + 1]) - (cx[i + 1] * cy[i]);
         }
 
-        surface += (cx[ListeCoins.length - 1] * cy[0]) - (cx[0] * cy[xPoints.length - 1]);
+        surface += (cx[ListeCoins.size() - 1] * cy[0]) - (cx[0] * cy[xPoints.length - 1]);
 
         return Math.abs(surface) / 2;
     }
