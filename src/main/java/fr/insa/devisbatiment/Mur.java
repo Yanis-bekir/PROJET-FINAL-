@@ -43,8 +43,8 @@ public class Mur {
        return s;
     }
     
-    public double montantRevetement (Mur mur){
-        double montant=
+    public double montantRevetement (Mur mur, Revetement revetements){
+        double montant=mur.surface()*revetements.prix();
         return montant; 
     }
 }
